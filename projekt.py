@@ -26,15 +26,16 @@ st = {"Przykład dannych" : ['Imię','Nazwisko','Data urodzenia','Wydział'],
 with open("k_st.json", "w", encoding="utf-8") as plik:
     json.dump(k_st, plik, ensure_ascii=False, indent=4)
 
+#Zapisywanie danych studentow do pliku typu json
+
+with open("st.json", "w", encoding="utf-8") as plik:
+    json.dump(st, plik, ensure_ascii=False, indent=4)
 #wyswietlanie danych z pliku json
 
 with open("k_st.json", "r", encoding="utf-8") as plik:
     k_st = json.load(plik)
     for key, wartosc in k_st.items():
         print(f"{key}: {wartosc}")
-#Zapisywanie danych studentow do pliku typu json
-with open("k_st.json", "w", encoding="utf-8") as f:
-    json.dump(st, f, ensure_ascii=False, indent=4)
 
 #wyswietlanie danych z pliku json
 with open("st.json", "r", encoding="utf-8") as f:
@@ -47,8 +48,8 @@ with open("st.json", "r", encoding="utf-8") as f:
 nowy_st = []
 
 a = str(input('Czy chcesz wprowadzic nowe dane?:'))
-print("Uniwersytet Warszawski","Uniwesrsytet Wroclawski UWr","Uniwersytet Krakowski Jagiellońskiego")
-if a == "Tak" or 'tak':
+if a in ("Tak", "tak", "TAK"):
+    print("Uniwersytet Warszawski", "Uniwesrsytet Wroclawski UWr", "Uniwersytet Krakowski Jagiellońskiego")
     b = str(input('Podaj Imię:'))
     nowy_st.append(b)
     b1 = str(input('Podaj Nazwisko:'))
@@ -57,27 +58,36 @@ if a == "Tak" or 'tak':
     nowy_st.append(b2)
     b3 = str(input('Podaj Wydzial:'))
     nowy_st.append(b3)
+    print(nowy_st)
+    try:
+        with open('st.json', 'r') as plik:
+            st = json.load(plik)
+    except FileNotFoundError:
+        st = {}
+    k = str(input('Podaj uniwersytet'))
+    if k in ("Uniwersytet Warszawski","Uniwesrsytet Wroclawski UWr","Uniwersytet Krakowski Jagiellońskiego"):
+        if k == "Uniwersytet Warszawski":
+            st['Uniwersytet Warszawski'] = nowy_st
+            with open('st.json', 'w') as plik:
+                json.dump(st, plik, indent=4)
 
-print(nowy_st)
+        if k == "Uniwesrsytet Wroclawski UWr":
+            st['Uniwesrsytet Wroclawski UWr'] = nowy_st
+            with open('st.json', 'w') as plik:
+                json.dump(st, plik, indent=4)
 
-try:
-    with open('st.json', 'r') as plik:
-        st = json.load(plik)
-except FileNotFoundError:
-    st = {}
-k = str(input('Podaj uniwersytet'))
-if k == "Uniwersytet Warszawski":
-    st['Uniwersytet Warszawski'] = nowy_st
-    with open('st.json', 'w') as plik:
-        json.dump(st, plik, indent=4)
+        if k == "Uniwersytet Krakowski Jagiellońskiego":
+            st['Uniwersytet Krakowski Jagiellońskiego'] = nowy_st
+            with open('st.json', 'w') as plik:
+                json.dump(st, plik, indent=4)
+    else:
+        print("Nie ma takiego uniwersytetu")
+        print("Dziekuje ze skorzystales z naszego dziennika!")
+else:
+    print("Dziekuje ze skorzystales z naszego dziennika!")
 
-if k == "Uniwesrsytet Wroclawski UWr":
-    st['Uniwesrsytet Wroclawski UWr'] = nowy_st
-    with open('st.json', 'w') as plik:
-        json.dump(st, plik, indent=4)
 
-if k == "Uniwersytet Krakowski Jagiellońskiego":
-    st['Uniwersytet Krakowski Jagiellońskiego'] = nowy_st
-    with open('st.json', 'w') as plik:
-        json.dump(st, plik, indent=4)
+
+
+
 

@@ -1,0 +1,22 @@
+{
+    "Uniwersytet Warszawski": [
+        "Wydział Archeologii",
+        "Wydział Biologii",
+        "Wydział Chemii",
+        "Wydział Dziennikarstwa, Informacji i Bibliologii",
+        "Wydział Medyczny"
+    ],
+    "Uniwesrsytet Wroclawski UWr": [
+        "Wydział Komunikacji Społecznej i Mediów",
+        "Wydział Matematyki i Informatyki",
+        "Wydział Nauk Biologicznych",
+        "Wydział Nauk Historycznych i Pedagogicznych",
+        "Wydział Nauk Społecznych"
+    ],
+    "Uniwersytet Krakowski Jagiellońskiego": [
+        "Wydział Biochemii, Biofizyki i Biotechnologii",
+        "Wydział Biologii",
+        "Wydział Fizyki, Astronomii i Informatyki Stosowanej",
+        "Wydział Matematyki i Informatyki"
+    ]
+}

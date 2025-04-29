@@ -1,0 +1,50 @@
+{
+    "Przykład dannych": [
+        "Imię",
+        "Nazwisko",
+        "Data urodzenia",
+        "Wydział"
+    ],
+    "Uniwersytet Warszawski": [
+        [
+            "Kasia",
+            "Bogdanowska",
+            "21.07.2005",
+            "Wydział Biologii"
+        ],
+        [
+            "Ola",
+            "Gliwińska",
+            "06.05.2005",
+            "Wydział Chemii"
+        ]
+    ],
+    "Uniwesrsytet Wroclawski UWr": [
+        [
+            "Maja",
+            "Targowska",
+            "03.03.2004",
+            "Wydział Nauk Historycznych i Pedagogicznych"
+        ],
+        [
+            "Maciej",
+            "Bujok",
+            "02.01.2005",
+            "Wydział Nauk Społecznych"
+        ]
+    ],
+    "Uniwersytet Krakowski Jagiellońskiego": [
+        [
+            "Roman",
+            "Podlaski",
+            "12.01.2004",
+            "Wydział Matematyki i Informatyki"
+        ],
+        [
+            "Arkadiusz",
+            "Hinc",
+            "03.10.2004",
+            "Wydział Matematyki i Informatyki"
+        ]
+    ]
+}
