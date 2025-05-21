@@ -3,20 +3,18 @@
         "Wydział Archeologii",
         "Wydział Biologii",
         "Wydział Chemii",
-        "Wydział Dziennikarstwa, Informacji i Bibliologii",
-        "Wydział Medyczny"
+        "Wydział Dziennikarstwa, Informacji i Bibliologii"
     ],
     "Uniwesrsytet Wroclawski UWr": [
-        "Wydział Komunikacji Społecznej i Mediów",
-        "Wydział Matematyki i Informatyki",
-        "Wydział Nauk Biologicznych",
-        "Wydział Nauk Historycznych i Pedagogicznych",
-        "Wydział Nauk Społecznych"
+        "Wydział Archeologii",
+        "Wydział Biologii",
+        "Wydział Chemii",
+        "Wydział Dziennikarstwa, Informacji i Bibliologii"
     ],
     "Uniwersytet Krakowski Jagiellońskiego": [
-        "Wydział Biochemii, Biofizyki i Biotechnologii",
+        "Wydział Archeologii",
         "Wydział Biologii",
-        "Wydział Fizyki, Astronomii i Informatyki Stosowanej",
-        "Wydział Matematyki i Informatyki"
+        "Wydział Chemii",
+        "Wydział Dziennikarstwa, Informacji i Bibliologii"
     ]
 }

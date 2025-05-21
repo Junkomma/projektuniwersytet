@@ -1,50 +1,42 @@
 {
-    "Przykład dannych": [
-        "Imię",
+    "Przyk\u0415\u201aad dannych": [
+        "Imi\u0414\u2122",
         "Nazwisko",
         "Data urodzenia",
-        "Wydział"
+        "Wydzia\u0415\u201a"
     ],
     "Uniwersytet Warszawski": [
-        [
-            "Kasia",
-            "Bogdanowska",
-            "21.07.2005",
-            "Wydział Biologii"
-        ],
-        [
-            "Ola",
-            "Gliwińska",
-            "06.05.2005",
-            "Wydział Chemii"
-        ]
+        "1",
+        "2",
+        "3",
+        "Wydzia\u0142 Archeologii"
     ],
     "Uniwesrsytet Wroclawski UWr": [
         [
             "Maja",
             "Targowska",
             "03.03.2004",
-            "Wydział Nauk Historycznych i Pedagogicznych"
+            "Wydzia\u0415\u201a Nauk Historycznych i Pedagogicznych"
         ],
         [
             "Maciej",
             "Bujok",
             "02.01.2005",
-            "Wydział Nauk Społecznych"
+            "Wydzia\u0415\u201a Nauk Spo\u0415\u201aecznych"
         ]
     ],
-    "Uniwersytet Krakowski Jagiellońskiego": [
+    "Uniwersytet Krakowski Jagiello\u0415\u201eskiego": [
         [
             "Roman",
             "Podlaski",
             "12.01.2004",
-            "Wydział Matematyki i Informatyki"
+            "Wydzia\u0415\u201a Matematyki i Informatyki"
         ],
         [
             "Arkadiusz",
             "Hinc",
             "03.10.2004",
-            "Wydział Matematyki i Informatyki"
+            "Wydzia\u0415\u201a Matematyki i Informatyki"
         ]
     ]
 }
